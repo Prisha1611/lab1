@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+		}
+		form {
+			background-color: white;
+			border: 3px solid #f1f1f1;
+			margin: 5% auto 15% auto;
+			max-width: 500px;
+			padding: 20px;
+		}
+		input[type=text], input[type=email], textarea {
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			width: 100%;
+		}
+		button[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+		button[type=submit]:hover {
+			opacity: 0.8;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
